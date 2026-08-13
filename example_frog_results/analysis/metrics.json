@@ -1,0 +1,40 @@
+{
+  "image": "/mnt/data/frog.png",
+  "width": 2048,
+  "height": 1117,
+  "distinct_rgb_colors": 541466,
+  "entropy_bits": {
+    "R": 7.550012791342699,
+    "G": 7.618913397539398,
+    "B": 7.064158482187872,
+    "Luma": 7.649146019910272
+  },
+  "joint_rgb_entropy_bits_per_pixel": 17.7249510507256,
+  "flat_mask_fraction": 0.20000034970904207,
+  "estimated_luma_highpass_sigma_0to1": 0.004727569995896736,
+  "estimated_lab_a_highpass_sigma": 0.3356451646869808,
+  "estimated_lab_b_highpass_sigma": 0.32754438273452774,
+  "normalized_spectral_entropy": 0.9877263539864357,
+  "accepted_flat_fft_patches": 256,
+  "flat_residual_channel_correlation": [
+    [
+      1.0,
+      0.8555023524421785,
+      0.8566950233449102
+    ],
+    [
+      0.8555023524421784,
+      1.0,
+      0.8399802320931897
+    ],
+    [
+      0.8566950233449103,
+      0.8399802320931896,
+      1.0
+    ]
+  ],
+  "rgb_zlib_ratio": 0.8757033523108774,
+  "rgb_lzma_ratio": 0.7131045303640704,
+  "mean_texture_probability": 0.25777213067314775,
+  "mean_flat_probability": 0.7422278693268523
+}

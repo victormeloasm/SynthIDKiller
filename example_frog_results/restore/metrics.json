@@ -1,0 +1,20 @@
+{
+  "image": "/mnt/data/frog.png",
+  "preset": "balanced",
+  "config": {
+    "strength": 0.62,
+    "texture_protection": 0.82,
+    "detail_recovery": 0.16,
+    "chroma_strength": 0.72
+  },
+  "estimated_luma_sigma": 0.008803915726834095,
+  "rms_pixel_change": 0.38224381229403637,
+  "mean_absolute_pixel_change": 0.1405251872109072,
+  "ssim_vs_original": 0.9982391270678938,
+  "mean_cleanup_weight": 0.27219773619905396,
+  "p95_cleanup_weight": 0.5744384273613156,
+  "mean_change_smooth_regions": 0.4476741481638736,
+  "mean_change_textured_regions": 0.012572646171623682,
+  "smooth_to_texture_change_ratio": 35.606994904085425,
+  "mean_texture_probability": 0.2577721306731478
+}

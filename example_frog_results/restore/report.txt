@@ -1,0 +1,20 @@
+FROG PHOTO RESTORATION REPORT
+========================================================================
+
+Image: /mnt/data/frog.png
+Preset: balanced
+Config: {'strength': 0.62, 'texture_protection': 0.82, 'detail_recovery': 0.16, 'chroma_strength': 0.72}
+Estimated luminance sigma: 0.00880392
+RMS pixel change: 0.382244
+MAE pixel change: 0.140525
+SSIM vs original: 0.99823913
+Mean cleanup weight: 0.272198
+P95 cleanup weight: 0.574438
+Mean change in smooth regions: 0.447674
+Mean change in textured regions: 0.012573
+Smooth/textured change ratio: 35.606995
+
+Interpretation:
+- Larger smooth/textured change ratio means the algorithm preferentially cleaned smoother areas.
+- High SSIM alone does not guarantee good restoration; inspect removed_component_x8.png.
+- If recognizable subject detail appears in the removed component, use a more conservative preset.

@@ -1,0 +1,54 @@
+FROG PHOTO FORENSICS REPORT
+========================================================================
+
+Image: /mnt/data/frog.png
+Resolution: 2048 x 1117
+Distinct RGB colors: 541,466
+
+ENTROPY
+------------------------------------------------------------------------
+R: 7.55001279 bits/sample
+G: 7.61891340 bits/sample
+B: 7.06415848 bits/sample
+Luma: 7.64914602 bits/sample
+Joint RGB: 17.72495105 bits/pixel
+
+ROBUST SMOOTH-REGION RESIDUAL ESTIMATES
+------------------------------------------------------------------------
+Luma high-pass sigma [0..1]: 0.0047275700
+LAB a* high-pass sigma: 0.33564516
+LAB b* high-pass sigma: 0.32754438
+Smoothest-mask fraction: 20.0000%
+Accepted FFT patches: 256
+Normalized spectral entropy: 0.98772635
+
+FLAT-REGION RGB HIGH-PASS CORRELATION
+------------------------------------------------------------------------
+[[1.         0.85550235 0.85669502]
+ [0.85550235 1.         0.83998023]
+ [0.85669502 0.83998023 1.        ]]
+
+TOP FFT CANDIDATES
+------------------------------------------------------------------------
+01: dx= +22 dy= -62 period~1.9457px power=1.5119425314e-03
+02: dx= -22 dy= +62 period~1.9457px power=1.5119425314e-03
+03: dx= +22 dy= +62 period~1.9457px power=7.8560925023e-04
+04: dx= -22 dy= -62 period~1.9457px power=7.8560925023e-04
+05: dx= -22 dy= +22 period~4.1141px power=7.1032554125e-04
+06: dx= +22 dy= -22 period~4.1141px power=7.1032554125e-04
+07: dx= +44 dy=  +0 period~2.9091px power=6.2326439255e-04
+08: dx= -44 dy=  +0 period~2.9091px power=6.2326439255e-04
+09: dx=  -1 dy=  -4 period~31.0446px power=6.1714245593e-04
+10: dx=  +1 dy=  +4 period~31.0446px power=6.1714245593e-04
+11: dx= +44 dy= -44 period~2.0570px power=4.6780097419e-04
+12: dx= -44 dy= +44 period~2.0570px power=4.6780097419e-04
+13: dx= +22 dy= +22 period~4.1141px power=4.2487239033e-04
+14: dx= -22 dy= -22 period~4.1141px power=4.2487239033e-04
+15: dx= -62 dy= +62 period~1.4598px power=3.0550800495e-04
+16: dx= +62 dy= -62 period~1.4598px power=3.0550800495e-04
+17: dx=  +0 dy= -44 period~2.9091px power=3.0433911091e-04
+18: dx=  +0 dy= +44 period~2.9091px power=3.0433911091e-04
+19: dx= +62 dy= +22 period~1.9457px power=2.9296169029e-04
+20: dx= -62 dy= -22 period~1.9457px power=2.9296169029e-04
+
+Interpretation warning: strong peaks are generic spectral candidates, not source/provenance identification.
