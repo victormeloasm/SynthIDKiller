@@ -1,0 +1,28 @@
+Quick inspection of the uploaded gg.png
+=======================================
+
+Resolution: 2048 x 1117
+Pixels: 2,287,616
+Distinct RGB colors: 7,830
+
+Exact #000000 pixels: 507,391  (22.1799%)
+Exact #FFFFFF pixels: 270,358  (11.8183%)
+Other RGB values:    1,509,867 (66.0018%)
+
+Exact grayscale pixels (R=G=B): ~74.17%
+Pixels with max(R,G,B)-min(R,G,B) <= 1: ~86.02%
+Pixels with channel spread <= 3: ~99.76%
+
+Mean luminance distance to nearest ideal binary level (0 or 255): ~10.46
+Median distance: ~1
+90th percentile distance: ~40
+99th percentile distance: ~118
+
+Interpretation:
+- Visually it is a black/white optical pattern, but the raster is very far from a literal 2-color image.
+- Most chromatic deviation is tiny; the dominant non-binary contamination is grayscale / near-grayscale.
+- Otsu on the uploaded raster lands at about 127, so Otsu and a fixed 127.5 split are natural first
+  restoration candidates.
+- Because the intended spiral/stripe content is itself strongly periodic, an FFT of the ORIGINAL image
+  cannot safely distinguish "content" from "periodic junk". The toolkit therefore analyzes the
+  residual relative to an inferred black/white model and excludes a safety band around edges.
