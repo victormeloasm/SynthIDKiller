@@ -1,0 +1,55 @@
+{
+  "image": "gg.png",
+  "width": 2816,
+  "height": 1536,
+  "thresholds": {
+    "fixed127": 127.5,
+    "otsu": 127.0,
+    "li": 52.60297626985192,
+    "yen": 47.0
+  },
+  "tv_otsu_threshold": 127.0,
+  "tv_weight": 0.035,
+  "candidates": [
+    {
+      "name": "fixed127",
+      "threshold": 127.5,
+      "white_fraction": 0.4600083322236032,
+      "black_fraction": 0.5399916677763967,
+      "mean_abs_projection_change": 8.44456127485796,
+      "p95_abs_projection_change": 70.0
+    },
+    {
+      "name": "otsu",
+      "threshold": 127.0,
+      "white_fraction": 0.46006728663589014,
+      "black_fraction": 0.5399327133641099,
+      "mean_abs_projection_change": 8.44458213251288,
+      "p95_abs_projection_change": 70.0
+    },
+    {
+      "name": "li",
+      "threshold": 52.60297626985192,
+      "white_fraction": 0.4966312755237926,
+      "black_fraction": 0.5033687244762074,
+      "mean_abs_projection_change": 11.346216861609264,
+      "p95_abs_projection_change": 95.00000000000003
+    },
+    {
+      "name": "yen",
+      "threshold": 47.0,
+      "white_fraction": 0.4997676502574574,
+      "black_fraction": 0.5002323497425426,
+      "mean_abs_projection_change": 11.832744087450436,
+      "p95_abs_projection_change": 103.0
+    },
+    {
+      "name": "tv_otsu",
+      "threshold": 127.0,
+      "white_fraction": 0.4589166352243135,
+      "black_fraction": 0.5410833647756865,
+      "mean_abs_projection_change": 8.47160141749527,
+      "p95_abs_projection_change": 70.0
+    }
+  ]
+}

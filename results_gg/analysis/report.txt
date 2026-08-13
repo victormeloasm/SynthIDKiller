@@ -1,0 +1,83 @@
+PATTERN LAB REPORT
+========================================================================
+
+Resolution: 2816 x 1536
+Distinct RGB values: 3,388
+Otsu threshold: 127.000
+Exact black: 23.2826%
+Exact white: 14.3406%
+Non-binary pixels: 62.3768%
+Exact grayscale pixels: 79.1863%
+Mean distance to nearest 0/255: 8.444561
+P90 distance to nearest 0/255: 23.000000
+P99 distance to nearest 0/255: 116.000000
+
+ENTROPY
+------------------------------------------------------------------------
+R: 4.12655843 bits/sample
+G: 4.15409891 bits/sample
+B: 4.22769806 bits/sample
+luma: 4.15307531 bits/sample
+Joint RGB: 5.22599772 bits/pixel
+Flat residual entropy: 2.52539714 bits/symbol
+Horizontal H(next|prev): 1.70315564; MI=0.78946405
+Vertical H(next|prev): 1.63794403; MI=0.86360505
+Normalized spectral entropy: 0.97085742
+FFT patches: 1369; patch=64; min_flat=0.80; global_fallback=False
+
+COMPRESSION
+------------------------------------------------------------------------
+RGB zlib/raw: 0.28464261
+RGB lzma/raw: 0.19062142
+Residual zlib/raw: 0.28739021
+Residual lzma/raw: 0.25101885
+
+TOP BIAS-CORRECTED PHASE PERIODS
+------------------------------------------------------------------------
+ 64px observed=0.30726773 bias=0.28713597 corrected=0.02013176 normalized=0.799932%
+ 16px observed=0.09857438 bias=0.07924101 corrected=0.01933337 normalized=0.768208%
+ 48px observed=0.23495635 bias=0.21590620 corrected=0.01905015 normalized=0.756954%
+ 32px observed=0.16807747 bias=0.14944080 corrected=0.01863667 normalized=0.740525%
+ 40px observed=0.19594197 bias=0.18228089 corrected=0.01366108 normalized=0.542821%
+  8px observed=0.04934214 bias=0.03618958 corrected=0.01315256 normalized=0.522614%
+ 24px observed=0.12856258 bias=0.11573682 corrected=0.01282576 normalized=0.509629%
+ 56px observed=0.26377851 bias=0.25132994 corrected=0.01244857 normalized=0.494642%
+ 60px observed=0.27868294 bias=0.26941200 corrected=0.00927094 normalized=0.368379%
+ 12px observed=0.06756967 bias=0.05881581 corrected=0.00875386 normalized=0.347833%
+ 20px observed=0.10643122 bias=0.09778646 corrected=0.00864476 normalized=0.343498%
+  4px observed=0.02006493 bias=0.01155937 corrected=0.00850556 normalized=0.337967%
+ 36px observed=0.17378934 bias=0.16576199 corrected=0.00802735 normalized=0.318965%
+ 44px observed=0.20716940 bias=0.19930527 corrected=0.00786413 normalized=0.312480%
+ 28px observed=0.14029696 bias=0.13262208 corrected=0.00767487 normalized=0.304960%
+
+TOP FLAT-RESIDUAL FFT PEAKS
+------------------------------------------------------------------------
+01: dx= -32 dy=  +0 period~2.0000px power=2.1030310800e-03
+02: dx=  +0 dy=  +5 period~12.8000px power=1.3005242505e-03
+03: dx=  +0 dy=  -5 period~12.8000px power=1.3005242505e-03
+04: dx=  +4 dy=  -1 period~15.5223px power=1.0557445535e-03
+05: dx=  -4 dy=  +1 period~15.5223px power=1.0557445535e-03
+06: dx= +16 dy= +16 period~2.8284px power=1.0160759023e-03
+07: dx= -16 dy= -16 period~2.8284px power=1.0160759023e-03
+08: dx= +31 dy=  +0 period~2.0645px power=9.0429670529e-04
+09: dx= +28 dy=  -4 period~2.2627px power=8.2180783657e-04
+10: dx= -28 dy=  +4 period~2.2627px power=8.2180783657e-04
+11: dx=  +0 dy=  -9 period~7.1111px power=8.1326127928e-04
+12: dx=  +0 dy=  +9 period~7.1111px power=8.1326127928e-04
+13: dx= -16 dy= +16 period~2.8284px power=7.9827976570e-04
+14: dx= +16 dy= -16 period~2.8284px power=7.9827976570e-04
+15: dx=  -4 dy=  -4 period~11.3137px power=7.8909052507e-04
+16: dx=  +4 dy=  +4 period~11.3137px power=7.8909052507e-04
+17: dx= +16 dy=  +0 period~4.0000px power=7.7212739142e-04
+18: dx= -16 dy=  +0 period~4.0000px power=7.7212739142e-04
+19: dx= +28 dy=  +4 period~2.2627px power=5.9787537542e-04
+20: dx= -28 dy=  -4 period~2.2627px power=5.9787537542e-04
+
+GLCM
+------------------------------------------------------------------------
+contrast: 9.41791700
+dissimilarity: 1.24018544
+homogeneity: 0.71356592
+ASM: 0.15018771
+energy: 0.38587136
+correlation: 0.42595528
