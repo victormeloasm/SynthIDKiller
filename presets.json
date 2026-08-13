@@ -1,0 +1,20 @@
+{
+  "conservative": {
+    "strength": 0.45,
+    "texture_protection": 0.88,
+    "detail_recovery": 0.1,
+    "chroma_strength": 0.55
+  },
+  "balanced": {
+    "strength": 0.62,
+    "texture_protection": 0.82,
+    "detail_recovery": 0.16,
+    "chroma_strength": 0.72
+  },
+  "aggressive": {
+    "strength": 0.78,
+    "texture_protection": 0.72,
+    "detail_recovery": 0.2,
+    "chroma_strength": 0.85
+  }
+}
