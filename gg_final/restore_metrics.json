@@ -1,0 +1,23 @@
+{
+  "image": "gg.png",
+  "width": 2816,
+  "height": 1536,
+  "thresholds": {
+    "fixed127": 127.5,
+    "otsu": 127.0,
+    "li": 52.60297626985192,
+    "yen": 47.0
+  },
+  "tv_otsu_threshold": 127.0,
+  "tv_weight": 0.035,
+  "candidates": [
+    {
+      "name": "otsu",
+      "threshold": 127.0,
+      "white_fraction": 0.46006728663589014,
+      "black_fraction": 0.5399327133641099,
+      "mean_abs_projection_change": 8.44458213251288,
+      "p95_abs_projection_change": 70.0
+    }
+  ]
+}
